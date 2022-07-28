@@ -136,7 +136,7 @@ void yespower_urx_hash(const char* input, char* output)
     yespower_params_t params = {
             .version = YESPOWER_1_0,
             .N = 2048,
-            .r = 8,
+            .r = 32,
             .pers = NULL,
             .perslen = 0
     };
