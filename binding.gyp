@@ -8,6 +8,7 @@
                 "bcrypt.c",
                 "blake.c",
                 "blake2s.c",
+                "bmw512.c",
                 "boolberry.cc",
                 "c11.c",
                 "cryptonight.c",
