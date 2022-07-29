@@ -137,8 +137,8 @@ void yespower_urx_hash(const char* input, char* output)
             .version = YESPOWER_1_0,
             .N = 2048,
             .r = 32,
-            .pers = NULL,
-            .perslen = 0
+            .pers = (const uint8_t*)"UraniumX",
+            .perslen = 8
     };
     yespower_tls((const uint8_t*)input, 80, &params, (yespower_binary_t*)output);
 }
