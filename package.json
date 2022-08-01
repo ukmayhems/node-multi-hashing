@@ -7,8 +7,8 @@
         "email": "zone117x@gmail.com"
     },
     "repository": {
-        "type": "git",
-        "url": "https://github.com/ukmayhems/node-multi-hashing"
+        "type": "git+https://",
+        "url": "git+https://github.com/ukmayhems/node-multi-hashing"
     },
     "dependencies": {
         "bindings": "^1.3.0",
